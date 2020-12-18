@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="libraries_reading_room" directorySegmentName="seg_0" id="401EB447-6F3C-D71A-966F-7E6223758D28">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:03:25 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<sourcePk>2BC44289-D293-936C-B19F-4E879800EA7E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CCDAAA5-F514-6614-607A-56140ACB0FDA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99B1D8A7-FB60-5FFD-E3AA-17EDA6D21E53</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

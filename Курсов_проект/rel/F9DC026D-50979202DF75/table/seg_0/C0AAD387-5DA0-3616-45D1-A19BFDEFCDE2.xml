@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0AAD387-5DA0-3616-45D1-A19BFDEFCDE2" name="issue">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>171EDEFE-A175-94B0-8F12-3D9740E152D2</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="issue_date" id="4B8B9F13-4206-B4F7-2C07-ED670EB16F18">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>A299B355-B214-E9EA-F2FB-4EBAECFB9E6A</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="l_id" id="0CCDB6DA-AAD3-DE15-37E2-B28AC058ECD5">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>D652525C-624B-333B-4564-2E91E65AF809</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFB44B06-1AB3-3F80-71A5-1E73486E7DC9" referredColumn="C11FFD39-F942-FB5C-0319-2867D35E1EFE"/>
+</associations>
+</Column>
+<Column name="book_id" id="3462D10A-7F70-D292-B333-AFF8C6026E00">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>9EF55D81-A6A0-E6A7-8CED-AFF2DA870851</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24FA6590-8D24-BDBC-D19F-803DDEB8A372" referredColumn="A3D35998-AC90-BA38-0FB3-03510387FC5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D21E18B2-A9C4-88F4-4B65-385B538BDD9E" name="issue__IDX">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>697DC76C-FF8B-726E-CEE0-01347535A65E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3462D10A-7F70-D292-B333-AFF8C6026E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB0C812E-9673-0084-BB1C-B138EFC0E23E" name="issue_librarians_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>5B3F7EDC-5188-2F47-B7AE-B79422ABE023</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CCDB6DA-AAD3-DE15-37E2-B28AC058ECD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6F91941-78B6-552D-0C7B-2F5DEA9B7A12" name="issue_books_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>697DC76C-FF8B-726E-CEE0-01347535A65E</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3462D10A-7F70-D292-B333-AFF8C6026E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

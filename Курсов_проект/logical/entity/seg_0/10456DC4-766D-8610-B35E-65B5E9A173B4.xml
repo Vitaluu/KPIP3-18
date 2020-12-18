@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10456DC4-766D-8610-B35E-65B5E9A173B4" name="authors">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:25:27 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="author_id" id="791C2014-2FA0-911B-84B8-0346C0D03DA5">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:48:07 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aurthor_name" id="ECF9CAC2-936A-2972-4629-3A9B17EE2E26">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:48:20 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthday" id="E481040A-7F02-64BD-8219-C72685BC9881">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:48:59 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="785AD386-9961-1FFC-5EB2-55C114C0913F" name="authors PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:48:17 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>791C2014-2FA0-911B-84B8-0346C0D03DA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

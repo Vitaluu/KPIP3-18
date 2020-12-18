@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80F09BF0-0943-C294-CD6B-743085919E83" name="abonement">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:03:40 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="a_id" id="FD8C3E50-A6AB-2EFF-1DDC-13511D7ADE00">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:35:59 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_start" id="5CA494A7-5B8A-6A86-7C21-16CA59FA230A">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:36:27 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_end" id="889E9BEC-81D0-68C8-53DD-60B7BE6354C0">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:36:46 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_id" id="D4BCE8D5-7257-0C04-E119-9E4DB81E4F38">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:45:45 UTC</createdTime>
+<generatorID>15B12007-2EDC-06F1-B995-81865B1F034F</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>5F27A45E-716A-3602-C26C-2AD1451FD601</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_id" id="94DAAD4C-D377-3D50-7DBA-7B93C988D351">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-21 13:41:30 UTC</createdTime>
+<generatorID>E3573338-1893-48B2-D93C-EDCB16CE043E</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>543081E3-BA0D-0D28-CC17-3C46502690CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB784DBB-65B5-9C29-B301-3675CE1F8DB4" name="abonement PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:36:10 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD8C3E50-A6AB-2EFF-1DDC-13511D7ADE00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

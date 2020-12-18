@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE5D3011-6E3B-A7A9-B994-1C6D4488C8BB" name="storages">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>9278A5F8-89EA-B40D-F861-E10F96D9669B</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stor_id" id="48177A85-2F9C-B3DD-CF7D-541C64C173AD">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>B11121A9-1DF8-C5F6-6E53-4A10E26019CC</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lib_id" id="13F3BE69-2AFA-AFEE-7A2E-B47E6F262534">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>4EF70A12-A9C7-B555-763A-B14C0C1D04E0</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EADEA201-24F5-C12C-311C-F4475243BBD1" referredColumn="36FFF107-C6CF-1801-6A60-1F6E2CA306F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B503C37-E498-26E7-394E-44846B4CAB02" name="storages_PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>7895EC6C-386B-814A-35B3-9AA049C26BF1</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48177A85-2F9C-B3DD-CF7D-541C64C173AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE5DF2AD-4EC8-DF29-DFB8-2C6A8151CDB7" name="storages_libraries_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>9017360E-82A3-8FFA-69B8-F4CBA42DB171</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F3BE69-2AFA-AFEE-7A2E-B47E6F262534"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4990DE1F-D87B-4AE1-3087-5BB06FF19415" name="book_types">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>1344896F-858E-78BE-73ED-C9C276A7B1F4</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="type_id" id="F99C31B2-CFF9-AE17-D11E-5ECD6111712A">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>6DE13A09-352F-3D68-449D-2476D516BACE</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_name" id="88B4E47D-513F-6C96-E9E1-4846EF361C21">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>2C0C860D-D09C-B0C5-6869-A93FC9EC5507</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBC117D1-1224-A62D-F772-4F81E902864F" name="book_types_PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>5E1EF4BB-7C8D-DC0A-6F9F-2EB7AC428B58</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99C31B2-CFF9-AE17-D11E-5ECD6111712A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

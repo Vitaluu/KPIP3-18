@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE2F8EC3-3A25-E706-037D-CDE6ED183FA6" name="librarians">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>2B65A033-2F2F-0281-9A31-CAB4EDEA40D0</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="l_id" id="C11FFD39-F942-FB5C-0319-2867D35E1EFE">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>25D6671A-CE07-BD97-1055-0DF21EBB311B</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="AD81B2AD-040F-FF8B-F531-A52D1A007E7C">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>2AD18960-9DB8-B52B-A8C9-A50EF6973961</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DCEAFB34-BD08-FE2C-4713-F2A690DAA8C9">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>FBCA7E2A-E713-FB3A-9C86-22B1072CA9A7</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="middleName" id="A4E3777D-1CCB-7E25-5D79-43DA7CACF015">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>ABB5E9A2-237E-AE3A-421A-DD1C2815529F</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_id" id="374CAA61-27EA-630D-AFAE-D1967AEA0288">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>6B0C99C0-094C-8397-8114-BD23025E83EC</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C31540-BC14-1ABD-C2BA-C00E1B6A188C" referredColumn="7A17F174-6F11-28D1-9975-104E7942589A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA180C9D-1869-2F4C-275E-889C8C447406" name="librarians_PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>F80AC468-B6DA-7756-7849-875E9ED76A83</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C11FFD39-F942-FB5C-0319-2867D35E1EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC1117E9-B8E3-3F18-6910-D81D925D1403" name="librarians_reading_room_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>199F108C-99E5-8500-6A44-B21F7FBF21B1</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="374CAA61-27EA-630D-AFAE-D1967AEA0288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

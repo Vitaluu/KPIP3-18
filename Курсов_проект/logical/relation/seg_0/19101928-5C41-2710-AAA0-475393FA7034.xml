@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="m2m_books_authors" directorySegmentName="seg_0" id="19101928-5C41-2710-AAA0-475393FA7034">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:06:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F151ED62-9ED1-4FDB-88F7-771454FB55A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10456DC4-766D-8610-B35E-65B5E9A173B4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

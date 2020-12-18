@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAFD65B7-74FE-6110-4E16-02E308132192" containerWithKeyObject="23F1EFAF-8705-1F14-3946-61175AD93D1C" localFKIndex="E6DF53BB-79DF-34C6-0AD2-D81B1FFE1600" name="abonement_libraries_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>15B12007-2EDC-06F1-B995-81865B1F034F</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<referredTableLongName>libraries</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D159CD08-1FF6-7112-0101-12D8001E5C94</referredTableID>
+<keyObject>39AA73EF-B293-D298-F8D4-59568EC3B67F</keyObject>
+<referredKeyID>39AA73EF-B293-D298-F8D4-59568EC3B67F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>lib_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

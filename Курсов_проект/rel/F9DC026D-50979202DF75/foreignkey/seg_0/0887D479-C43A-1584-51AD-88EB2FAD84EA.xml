@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0887D479-C43A-1584-51AD-88EB2FAD84EA" containerWithKeyObject="5B37F5B7-5AB4-B20B-5633-E0AEF47FACB2" localFKIndex="ECC24218-836F-D713-EE5A-7BD506B88F7B" name="extraditions_books_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>5C59F50A-2B25-12A1-4C26-BF5229334B55</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<referredTableLongName>books</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>500A61E2-48DC-E94B-B90B-907CAA301D99</referredTableID>
+<keyObject>43507073-B65C-5F97-4607-104D03A9D7EF</keyObject>
+<referredKeyID>43507073-B65C-5F97-4607-104D03A9D7EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>book_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

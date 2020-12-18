@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E4722D4-A2E3-1B3D-D281-BB1B02BF5D99" name="debite">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>B8259D07-ECE3-529B-8A9C-860CD67A314C</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="l_id" id="3F7AE67B-7E61-80A4-BA39-FA84F4470E96">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>E88BEBBB-EF4F-C66C-BB08-131093787639</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5C04B28-7800-A6B6-F8D3-68655E54F247" referredColumn="C11FFD39-F942-FB5C-0319-2867D35E1EFE"/>
+</associations>
+</Column>
+<Column name="debite_date" id="CD281BB5-EDB6-3B78-E688-A43DA3B98BFD">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>AC28A912-CE85-C388-E7FF-CD3DCB656DE0</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_id" id="2D14FA5B-DD54-24A6-01EA-76C5FA792F2E">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>C3E1CCCB-4607-FC14-9EE2-F1862138D6CB</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B47EBB4A-2965-9A66-82C4-5C27D32B9040" referredColumn="A3D35998-AC90-BA38-0FB3-03510387FC5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA631678-3AAB-8299-137D-5F31AE155C1B" name="debite__IDX">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DBB41EF3-C166-4784-5C7B-C63B8A287F15</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2D14FA5B-DD54-24A6-01EA-76C5FA792F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E537B7D-EFAF-8579-9D60-74A459726F52" name="debite_librarians_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>C59AC05E-E510-CCAA-3B03-31EF79526E7E</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7AE67B-7E61-80A4-BA39-FA84F4470E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D8F6918-985F-00D7-2FCA-5C89867DCF4B" name="debite_books_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>DBB41EF3-C166-4784-5C7B-C63B8A287F15</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D14FA5B-DD54-24A6-01EA-76C5FA792F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

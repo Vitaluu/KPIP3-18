@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8853A3D4-FE19-DB27-9D36-F7D47333690E" name="m2m_books_authors">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="books_book_id" id="689D230F-C1D5-23F6-BA86-75BF85A66119">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F8D5C9-730F-D180-0F42-0E51402A34B4" referredColumn="A3D35998-AC90-BA38-0FB3-03510387FC5E"/>
+</associations>
+</Column>
+<Column name="authors_author_id" id="450C8A51-C79F-6D76-4497-69C1BD4A083C">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72D0B06D-D62D-2CBB-9634-82FA5BAB1DF5" referredColumn="BBDB8BC1-8678-E3FE-ABDB-466AD86ABF1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6755F0F3-0F44-8372-8F06-E5CE9836FA2E" name="m2m_books_authors_PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689D230F-C1D5-23F6-BA86-75BF85A66119"/>
+<colUsage columnID="450C8A51-C79F-6D76-4497-69C1BD4A083C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93AD087E-9D7C-A7E6-2534-8B0CCCA86838" name="m2m_books_authors_books_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>19101928-5C41-2710-AAA0-475393FA7034</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689D230F-C1D5-23F6-BA86-75BF85A66119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7D97679-5F12-9EF5-D894-01BAB1B9AE31" name="m2m_books_authors_authors_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>19101928-5C41-2710-AAA0-475393FA7034</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="450C8A51-C79F-6D76-4497-69C1BD4A083C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9278A5F8-89EA-B40D-F861-E10F96D9669B" name="storages">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:21:47 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stor_id" id="B11121A9-1DF8-C5F6-6E53-4A10E26019CC">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:38:50 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_id" id="4EF70A12-A9C7-B555-763A-B14C0C1D04E0">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:05:34 UTC</createdTime>
+<generatorID>9017360E-82A3-8FFA-69B8-F4CBA42DB171</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<referedAttribute>5F27A45E-716A-3602-C26C-2AD1451FD601</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7895EC6C-386B-814A-35B3-9AA049C26BF1" name="storages PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:39:04 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B11121A9-1DF8-C5F6-6E53-4A10E26019CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

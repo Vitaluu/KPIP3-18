@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Курсов_проект" id="8BEF1E92-D71C-3F97-9CB6-4B1CFD8E0FF7" version="3.5">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 05:56:44 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8BEF1E92-D71C-3F97-9CB6-4B1CFD8E0FF7</designId>
+</OSDM_Design>

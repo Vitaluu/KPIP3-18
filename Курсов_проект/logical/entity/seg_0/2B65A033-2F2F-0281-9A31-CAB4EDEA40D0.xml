@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B65A033-2F2F-0281-9A31-CAB4EDEA40D0" name="librarians">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:26:52 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="l_id" id="25D6671A-CE07-BD97-1055-0DF21EBB311B">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:09:21 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="surname" id="2AD18960-9DB8-B52B-A8C9-A50EF6973961">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:09:43 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="FBCA7E2A-E713-FB3A-9C86-22B1072CA9A7">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:10:09 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="middleName" id="ABB5E9A2-237E-AE3A-421A-DD1C2815529F">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:10:42 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="l_num" id="704E46BA-CB28-72B4-13A1-DC9487512182">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:12:33 UTC</createdTime>
+<generatorID>199F108C-99E5-8500-6A44-B21F7FBF21B1</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>2C203168-EE8D-FEBC-F49D-E8F50444384D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_id" id="E2C986D0-ECF1-F969-BC85-E699B9412F8B">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:12:33 UTC</createdTime>
+<generatorID>199F108C-99E5-8500-6A44-B21F7FBF21B1</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>C53F3BFF-FDCA-44CF-DDB6-2D2C52ADFD58</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_id" id="6B0C99C0-094C-8397-8114-BD23025E83EC">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:12:33 UTC</createdTime>
+<generatorID>199F108C-99E5-8500-6A44-B21F7FBF21B1</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>835C0C38-E3E6-1915-F3EA-6C3C02A056AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F80AC468-B6DA-7756-7849-875E9ED76A83" name="librarians PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:09:40 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25D6671A-CE07-BD97-1055-0DF21EBB311B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

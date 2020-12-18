@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99B1D8A7-FB60-5FFD-E3AA-17EDA6D21E53" name="reading_room">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:04:06 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="r_id" id="835C0C38-E3E6-1915-F3EA-6C3C02A056AC">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:49:44 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="l_num" id="2C203168-EE8D-FEBC-F49D-E8F50444384D">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:50:23 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lib_id" id="C53F3BFF-FDCA-44CF-DDB6-2D2C52ADFD58">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:03:25 UTC</createdTime>
+<generatorID>401EB447-6F3C-D71A-966F-7E6223758D28</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<referedAttribute>5F27A45E-716A-3602-C26C-2AD1451FD601</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA86085A-2B90-C3AE-26B7-039E91A50962" name="reading_room PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:50:45 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="6A245D90-7582-C7B1-A657-444E3088A9B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C203168-EE8D-FEBC-F49D-E8F50444384D</attributeRef>
+<attributeRef>C53F3BFF-FDCA-44CF-DDB6-2D2C52ADFD58</attributeRef>
+<attributeRef>835C0C38-E3E6-1915-F3EA-6C3C02A056AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

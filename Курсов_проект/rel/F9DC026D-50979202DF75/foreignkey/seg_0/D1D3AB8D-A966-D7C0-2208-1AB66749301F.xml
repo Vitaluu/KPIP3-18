@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1D3AB8D-A966-D7C0-2208-1AB66749301F" containerWithKeyObject="5B37F5B7-5AB4-B20B-5633-E0AEF47FACB2" localFKIndex="6B2B0361-94A5-B752-58C2-343AF495E421" name="extraditions_librarians_FK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:31:22 UTC</createdTime>
+<generatorID>C5779A40-5E47-EBC1-BC1A-4779ED69B37C</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<referredTableLongName>librarians</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE2F8EC3-3A25-E706-037D-CDE6ED183FA6</referredTableID>
+<keyObject>AA180C9D-1869-2F4C-275E-889C8C447406</keyObject>
+<referredKeyID>AA180C9D-1869-2F4C-275E-889C8C447406</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>l_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

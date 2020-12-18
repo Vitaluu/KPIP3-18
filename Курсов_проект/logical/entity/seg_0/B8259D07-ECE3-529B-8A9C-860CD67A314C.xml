@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8259D07-ECE3-529B-8A9C-860CD67A314C" name="debite">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:20:02 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="l_id" id="E88BEBBB-EF4F-C66C-BB08-131093787639">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:24:12 UTC</createdTime>
+<generatorID>C59AC05E-E510-CCAA-3B03-31EF79526E7E</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>25D6671A-CE07-BD97-1055-0DF21EBB311B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="debite_date" id="AC28A912-CE85-C388-E7FF-CD3DCB656DE0">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:25:34 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id" id="C3E1CCCB-4607-FC14-9EE2-F1862138D6CB">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:27:37 UTC</createdTime>
+<generatorID>DBB41EF3-C166-4784-5C7B-C63B8A287F15</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>428B3B60-5A4E-6D8A-D634-0D0EDDFF3575</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

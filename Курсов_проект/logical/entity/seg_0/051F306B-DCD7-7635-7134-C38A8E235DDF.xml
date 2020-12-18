@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="051F306B-DCD7-7635-7134-C38A8E235DDF" name="extraditions">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 06:29:30 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ex_id" id="5E782ED1-4995-FBBE-55E2-32B4FF5F6E2F">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:08:57 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="l_id" id="22690F1B-EB1D-A397-E450-53BA6AF645C8">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:12:49 UTC</createdTime>
+<generatorID>C5779A40-5E47-EBC1-BC1A-4779ED69B37C</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>25D6671A-CE07-BD97-1055-0DF21EBB311B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_id" id="51658F5B-A535-B9F6-7C4B-859D6FDACC30">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:13:20 UTC</createdTime>
+<generatorID>12ED68E7-78BD-57D2-48D4-9D9E8172354A</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>543081E3-BA0D-0D28-CC17-3C46502690CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="D1FE2F9F-D8D8-2209-1BB5-E7950E8931D5">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:29:21 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_active" id="6736256B-41BA-7C95-96C1-D465E1857BC4">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 08:08:29 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id" id="DD58DB49-397C-E446-DAC7-E01E869F4705">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:36:31 UTC</createdTime>
+<generatorID>5C59F50A-2B25-12A1-4C26-BF5229334B55</generatorID>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<referedAttribute>428B3B60-5A4E-6D8A-D634-0D0EDDFF3575</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4C3987D-2A61-2B06-685B-27B5B508B20A" name="extraditions PK">
+<createdBy>Виталий</createdBy>
+<createdTime>2020-10-18 07:09:06 UTC</createdTime>
+<ownerDesignName>Курсов_проект</ownerDesignName>
+<engineerTo>
+<item key="F9DC026D-3009-920B-1EFB-50979202DF75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E782ED1-4995-FBBE-55E2-32B4FF5F6E2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
